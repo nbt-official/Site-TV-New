@@ -240,7 +240,7 @@
     window.onload = () => {
         currentChannelId = getChannelIdFromUrl();
         if (!currentChannelId || !CHANNEL_MAP[currentChannelId]) { 
-            window.location.href = '/404.php'; 
+            window.location.href = '/404.html'; 
             return; 
         }
         updateChannelTitle();
