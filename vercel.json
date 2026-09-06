@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/channel/:tv",
+      "destination": "/channel.html?tv=:tv"
+    }
+  ]
+}
